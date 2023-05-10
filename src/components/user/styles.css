@@ -1,0 +1,9 @@
+.box {
+  display: grid;
+  grid-template-columns: auto auto 1fr;
+  gap: 8px;
+}
+
+.box__image {
+  align-self: center;
+}
