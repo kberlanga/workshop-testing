@@ -3,6 +3,7 @@ import Home from "./pages/Home";
 import { Users } from "./pages/Users";
 import Dashboard from "./layouts/dashboard/Dashboard";
 import { Calculator } from "./pages/Calculator/Calculator";
+import { Patients } from "./pages/Patients";
 
 // eslint-disable-next-line react-refresh/only-export-components
 export const ROUTER = createBrowserRouter([
@@ -21,6 +22,10 @@ export const ROUTER = createBrowserRouter([
         {
           path: "calculator",
           element: <Calculator />,
+        },
+        {
+          path: "patients",
+          element: <Patients />,
         },
       ],
     },

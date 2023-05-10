@@ -1,6 +1,6 @@
 import { Group, Text, ThemeIcon, UnstyledButton } from "@mantine/core";
 import { Link } from "react-router-dom";
-import { Calculator, House, User } from "@phosphor-icons/react";
+import { Bed, Calculator, House, User } from "@phosphor-icons/react";
 import { customLinkSyles } from "./styles";
 
 interface LinkProps {
@@ -14,6 +14,7 @@ const ROUTES = [
   {icon: <House size={16} />, color: "blue", label: "Home", path: "/home"},
   {icon: <User size={16} />, color: "grape", label: "Users", path: "/users"},
   {icon: <Calculator size={16} />, color: "blue", label: "Calculator", path: "/calculator"},
+  {icon: <Bed size={16} />, color: "blue", label: "Patients", path: "/patients"},
 ];
 
 function CustomLink({icon, color, label, path}: LinkProps) {
